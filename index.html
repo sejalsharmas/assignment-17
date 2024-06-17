@@ -65,6 +65,7 @@
             margin-top: 28px;
             margin-left: auto;
             margin-right: auto;
+            transform: none;
             
         }
         .btn1:hover{
@@ -74,12 +75,12 @@
         .movie-container{
             display: flex;
             flex-direction: row;
-            justify-content:left;
             justify-content: space-between;
-            align-items: center;
+            align-items:end;
             flex-wrap: wrap;
             height: auto;
             width: auto;
+
         }
         .line{
             color: #ecd9c6;
@@ -96,15 +97,9 @@
             color:#ecd9c6;
             font-size:60px;
             font-family: "Teko", sans-serif;
-            margin-bottom: 100px
-
-             
-        }
-
-
-
-
-        .movie-card2{
+            margin-bottom: 100px;
+           }
+       .movie-card2{
             background-color: black;
             width: 300px;
             border: 3px solid #ecd9c6;
@@ -112,7 +107,7 @@
             padding: 10px;
             margin:10px;
             margin-top: 5px;
-            margin-left: 15px;
+            margin-left: 5px;
         }
         .movie-img2{
              display: block;
@@ -130,8 +125,8 @@
             margin-top: 28px;
             margin-left: auto;
             margin-right: auto;
-            
-        }
+            text-decoration: none;
+            }
         .btn2:hover{
             height:40px;
             width:200px;
@@ -139,12 +134,48 @@
         .movie-container2{
             display: flex;
             flex-direction:row;
-            justify-content:left;
-            justify-content:space-around;
+            justify-content:space-between;
             flex-wrap:wrap;
             align-items:center;
             height: auto;
             width: auto;
+        }
+        .movie-container3{
+            display: flex;
+            flex-direction:row;
+            justify-content:space-evenly;
+            flex-wrap:wrap;
+            align-items:start;
+            height: auto;
+            width: auto;
+        }
+        .btn3{
+            color:#ecd9c6;
+            background-color:black;   
+            display: block;
+            border-radius: 15px;
+            height:35px;
+            width:150px;
+            margin-top: 28px;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none;
+            }
+            .movie-card3{
+            background-color: black;
+            width: 300px;
+            border: 3px solid #ecd9c6;
+            height: 430px; ;
+            padding: 10px;
+            margin:10px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        .movie-img3{
+             display: block;
+             margin-right: auto;
+             margin-left: auto;
+             margin-top: 5px;
         }
        
     </style>
@@ -180,7 +211,6 @@
             <img  class=" movie-img1" src="https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg" height="350px" width="270px">
             <a target="_blank" href="https://www.dailymotion.com/video/x3hwsr4"><button class="btn1"><b>WATCH NOW</b></button></a>
          </div>
-        
           <br>
           <br>
          </div>
@@ -189,12 +219,12 @@
 
     <div class="movie-container2">
         
-        <div class="movie-card2">
+    <div class="movie-card2">
        <img  class=" movie-img2" src="https://resizing.flixster.com/wmMGWDaiNLqt6L7XmorrvfjaTgE=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12543830_p_v8_ao.jpg" height="350px" width="270px">
        <a target="_blank" href="https://www.imdb.com/title/tt4786282/"><button class="btn1"><b>WATCH NOW</b></button></a>
     </div>
 
-    <div class="movie-card2">
+     <div class="movie-card2">
         <img  class=" movie-img2" src="https://m.media-amazon.com/images/M/MV5BM2EzNzhjNzgtNjc5MC00MWZmLWE3MTMtZjc2YTk0ZWIxYTJjXkEyXkFqcGdeQXVyNTg2MDI2Njc@._V1_.jpg" height="350px" width="270px">
         <a target="_blank" href="https://ww10.soap2dayhd.co/film/sabrina-27246/"><button class="btn1"><b>WATCH NOW</b></button></a>
      </div>
@@ -209,8 +239,35 @@
      <div class="movie-card2">
         <img  class=" movie-img2" src="https://resizing.flixster.com/6ttPdXM2qvPB3x2brkFlU7nkcLc=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12742365_p_v8_az.jpg" height="350px" width="270px">
         <a target="_blank" href="https://w1.nites.is/movies/annabelle/?"><button class="btn1"><b>WATCH NOW</b></button></a>
-        
-     </div>
-</div>
+    </div>
+    <br>
+    <br>
+    </div>
+     <span class="moviegenre">MARVEL MOVIES</span>
+
+     <div class="movie-container3">
+         
+         <div class="movie-card3">
+        <img  class=" movie-img3" src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/8/8b/DrStrangePoster2.jpg/revision/latest/scale-to-width-down/1000?cb=20160724020506" height="350px" width="270px">
+        <a target="_blank" href="https://www.hotstar.com/in/movies/doctor-strange/1260018179"><button class="btn3"><b>WATCH NOW</b></button></a>
+         </div>
+ 
+     <div class="movie-card3">
+         <img  class=" movie-img3" src="https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_QL75_UX140_CR0,0,140,207_.jpg" height="350px" width="270px">
+         <a target="_blank" href="https://www.hotstar.com/in/movies/thor/1660000044?utm_source=gwa"><button class="btn3"><b>WATCH NOW</b></button></a>
+      </div>
+ 
+      
+      <div class="movie-card3">
+         <img  class=" movie-img3" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQRLzaRn7-5SjO1FtMv-lNClx3E-zwsPjnvRgR2yLBg4rru7Ejf" height="350px" width="270px">
+         <a target="_blank" href="https://www.tokyvideo.com/video/2008-incredible-hulk-full"><button class="btn3"><b>WATCH NOW</b></button></a>
+      </div>
+ 
+      
+      <div class="movie-card3">
+         <img  class=" movie-img3" src="https://contentserver.com.au/assets/646095_523722_p12543972_p_v8_ab.jpg" height="350px" width="270px">
+         <a target="_blank" href="https://www.jiocinema.com/movies/wonder-woman/3745129"><button class="btn3"><b>WATCH NOW</b></button></a>
+      </div>
+    </div>
 </body>
 </html>
